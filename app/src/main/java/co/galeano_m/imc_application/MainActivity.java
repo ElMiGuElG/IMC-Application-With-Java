@@ -37,20 +37,19 @@ public class MainActivity extends AppCompatActivity {
     private FloatingActionButton btnSumAge;
     private TextView tvAge;
     private AppCompatButton btnCalculate;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        initComponent();
-        initListener();
-        initSetGenderColor();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        
+        setContentView(R.layout.activity_main);
+        initComponent();
+        initListener();
+        initSetGenderColor();
     }
 
     //Initialise the components
