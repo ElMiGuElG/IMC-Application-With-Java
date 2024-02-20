@@ -47,6 +47,12 @@ public class MainActivity extends AppCompatActivity {
         initSetGenderColor();
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        
+    }
+
     //Initialise the components
     private void initComponent() {
         viewMale = findViewById(R.id.viewMale);
