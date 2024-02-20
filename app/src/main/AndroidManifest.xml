@@ -13,6 +13,9 @@
         android:theme="@style/Theme.IMC_Application"
         tools:targetApi="31">
         <activity
+            android:name=".IMCActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
