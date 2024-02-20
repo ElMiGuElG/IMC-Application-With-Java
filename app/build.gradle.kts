@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "co.galeano_m.imc_application"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "co.galeano_m.imc_application"
